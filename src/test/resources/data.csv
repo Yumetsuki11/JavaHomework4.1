@@ -8,4 +8,4 @@
 "unregistered user, bonus at limit", 50000, false, 500
 "unregistered user, bonus at limit and higher", 50001, false, 500
 "unregistered user, bonus at limit and lower", 49999, false, 499
-"unregistered user, zero amount", 0, true, 0
+"unregistered user, zero amount", 0, false, 0
