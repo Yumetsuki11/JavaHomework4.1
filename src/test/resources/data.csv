@@ -1,0 +1,11 @@
+"registered user, bonus under limit", 3000, true, 90
+"registered user, bonus over limit", 1000000, true, 500
+"registered user, bonus at limit, amount rounded up", 16667, true, 500
+"registered user, bonus at limit, amount rounded down", 16666, true, 499
+"registered user, zero amount", 0, true, 0
+"unregistered user, bonus under limit", 1000, false, 10
+"unregistered user, bonus over limit", 1000000, false, 500
+"unregistered user, bonus at limit", 50000, false, 500
+"unregistered user, bonus at limit and higher", 50001, false, 500
+"unregistered user, bonus at limit and lower", 49999, false, 499
+"unregistered user, zero amount", 0, true, 0
